@@ -9,11 +9,11 @@
     "build": "parcel build index.html"
   },
   "dependencies": {
-    "excalibur": "^0.24.3"
+    "excalibur": "0.24.3"
   },
   "devDependencies": {
-    "parcel": "^1.12.4",
-    "sass": "^1.26.10",
-    "typescript": "^3.9.6"
+    "parcel": "1.12.4",
+    "sass": "1.26.10",
+    "typescript": "3.9.6"
   }
 }
