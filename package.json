@@ -1,0 +1,19 @@
+{
+  "name": "brick-js",
+  "version": "1.0.0",
+  "description": "Brick game built with ExcaliburJS",
+  "author": "grantsru",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "excalibur": "^0.24.3"
+  },
+  "devDependencies": {
+    "parcel": "^1.12.4",
+    "sass": "^1.26.10",
+    "typescript": "^3.9.6"
+  }
+}
