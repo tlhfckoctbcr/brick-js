@@ -1620,6 +1620,11 @@ core-js-compat@^3.6.2:
     browserslist "^4.8.5"
     semver "7.0.0"
 
+core-js@3.23.3:
+  version "3.23.3"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.23.3.tgz#3b977612b15da6da0c9cc4aec487e8d24f371112"
+  integrity sha512-oAKwkj9xcWNBAvGbT//WiCdOMpb9XQG92/Fe3ABFM/R16BsHgePG00mFOgKf7IsCtfj8tA1kHtf/VwErhriz5Q==
+
 core-js@^2.4.0, core-js@^2.6.5:
   version "2.6.11"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.11.tgz#38831469f9922bded8ee21c9dc46985e0399308c"
@@ -2217,10 +2222,12 @@ evp_bytestokey@^1.0.0, evp_bytestokey@^1.0.3:
     md5.js "^1.3.4"
     safe-buffer "^5.1.1"
 
-excalibur@0.24.3:
-  version "0.24.3"
-  resolved "https://registry.yarnpkg.com/excalibur/-/excalibur-0.24.3.tgz#46eb170ae9745b1ac379858b365738368310b44a"
-  integrity sha512-dn1LoKmOPK4ZXkMXhFfMakcvCCDYCl+H5TV3szmnFDvlJ72L+J0ocAqhanu3YIQobehjEQjNY+Rz7KQnobI//w==
+excalibur@0.27.0:
+  version "0.27.0"
+  resolved "https://registry.yarnpkg.com/excalibur/-/excalibur-0.27.0.tgz#6e98d9d52393f96342b15a82d66246e154dcd21d"
+  integrity sha512-stbjNb3HD0ZEG3KKt1D8x558l4JNKFux1B5KlLoe+9SqxWTod/pYJqR/Nn6teB1vtCDnU3oYCnLo4FNQk6eJFA==
+  dependencies:
+    core-js "3.23.3"
 
 expand-brackets@^2.1.4:
   version "2.1.4"
